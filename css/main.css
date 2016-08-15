@@ -12,6 +12,9 @@
 .pd-5-10{
   padding: 2% 10%;
 }
+.pd-bottom{
+  padding-bottom: 10px;
+}
 .navbar {
     background-color: transparent;
     background: transparent;
@@ -25,10 +28,47 @@
 }
 /*Banner*/
 .banner {
-  height: 600px;
+  height: 700px;
   background: url(../image/large.jpg) top center;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 .title{
   padding: 19% 12%;
 }
+.blue{
+  background-color: rgba(0, 0, 255, 0.3);
+ position: absolute;
+ width: 100%;
+ margin-bottom: ;
+}
+.opacidad {
+   background-color: rgba(128,128,128,.4);
+   height: 100%;
+   position:relative;
+}
+/*servicios*/
+.ico{
+border:2px solid blue;
+
+padding: 30px;
+padding-bottom: 30px;
+font-size: 40px;
+color:#b3d4ff;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
+/* box-shadow */
+ -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+}
+.iconos{
+  padding:30px;
+}
+.text-video, .text-reloj, .text-papel{
+  padding-top: 40px;
+}
+
+    

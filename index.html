@@ -8,9 +8,13 @@
 	  	<title>User Testing 360°</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/icomoon.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	</head>
 	<body>
-	<header>
+    <!-- Banner -->
+    <header>
+    <section class="section1 banner">
      <nav class="navbar transparent navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -23,9 +27,8 @@
                 </button>
                 <a class="navbar-brand" href="#">User Testing 360</a>
             </div>
- 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <nav>
                 <ul class="nav navbar-nav navbar-right">
                      <li><a href="#">¿Qué me ofrece?</a></li>
@@ -37,28 +40,52 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    </header>
-    <!-- Banner -->
-	<section class="section1 banner">
-		<div class="text-banner text-center">
-			<div class="container">
+		<div class="text-banner text-center opacidad">
+			<div class="container-fluid">
 				<h1 class="text-white text-bold pd-5-10 title">Obten videos de personas reales utilizando tu sitio web en 1 hora </h1>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="blue-box">
-						<h2>Prueba gratuita</h2>
-						<p>Obten un video gratis de 5 minutos </p>
-						</div>
-					</div>
-					<div class="col-md-6">
+				        <div class="row">
+                        <div class="blue">
+					       <div class="col-md-6">
+						      <h2 class="text-center text-white">Prueba gratuita</h2>
+						      <p class="text-center text-white">Obten un video gratis de 5 minutos </p>
+                           </div>
+					   <div class="col-md-6">
 						<button type="button" class="btn btn-default">Pruébalo gratis</button>
-					</div>
-				</div>
+                    </div>
+                </div> 
 		   </div>
 		</div>
-	</section>
+    </header>
+    <!--Nuestros Servicios -->
+    <section>
+        <div class="container">
+            <h2 class="text-center pd-bottom">Nuestros servicios</h2>    
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="iconos text-center effect1">
+                    <i class="icon-video ico text-center"></i>
+                </div>
+                 <p class="text-center text-video">Pruebalo gratis</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="iconos text-center effect1">
+                    <i class="icon-clock ico text-center"></i>
+                </div>
+                 <p class="text-center text-reloj">Compra el<br> servicio completo</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="iconos text-center effect1">
+                    <i class="icon-documents ico text-center "></i>
+                </div>
+                 <p class="text-center text-papel">Obtén el resultado<br> en 1 día</p>
+            </div>
+        </div>    
+        </div>
+    </section>
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
-
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="js/main.js"></script>
+   <script type="text/javascript" src="js/bootstrap.js"></script>
  
     </body>
 </html>
