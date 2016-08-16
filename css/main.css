@@ -114,5 +114,18 @@ color:#b3d4ff;
 .text-video, .text-reloj, .text-papel{
   padding-top: 50px;
 }
-
-    
+/*Separador*/
+.separador {
+  padding: 4% 0%;
+  position: relative;
+}
+ #separador .penta {
+  position: absolute;
+  width: 7%;
+  left: 44%;
+  top: 13%;
+}
+/*User*/
+.user-size{
+  width: 40%;
+}
