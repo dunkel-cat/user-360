@@ -24,29 +24,75 @@
   color:white;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
-  background-color:blue;
+  background-color:#68B4FF;
 }
 /*Banner*/
-.banner {
+.h2{
+  color: #68B4FF;
+  font-size: 250%;
+  margin: 5% 0;
+}
+.lista{
+  margin-left: 3%;
+}
+
+#menu{
+  background-color: rgba(255,255,255, 0.1);
+  border: none;
+  padding-bottom: 1%; 
+}
+
+.menu .container-fluid .collapse #boton-menu li a{
+  color: white
+}
+.menu .container-fluid .collapse #boton-menu li a:hover{
+  background-color: #538ACC;
+}
+/* ------banner --------- */
+.banner{
+  background-image: url(../image/large.jpg);
+  background-size: cover;
+  position: relative;
+}
+.title-banner{
+  background-color: rgba(42, 53, 65,0.3);
   height: 700px;
-  background: url(../image/large.jpg) top center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  padding: 20% 23%;
 }
-.title{
-  padding: 19% 12%;
+.title-banner h1{
+  font-size: 360%
 }
-.blue{
-  background-color: rgba(0, 0, 255, 0.3);
- position: absolute;
- width: 100%;
- margin-bottom: ;
+/* ------ Header: Section : franja-azul --------- */
+#franja-azul{
+  background-color: rgba(88,165,255,0.6);
+  width: 100%;
+  height: 20%;
+  margin-top: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-top: 2%;
 }
-.opacidad {
-   background-color: rgba(128,128,128,.4);
-   height: 100%;
-   position:relative;
+div.boton1{
+  width: 40%;
+  height: 50px;
+  padding: 2.3% 0 0 5%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-bottom: 12px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 120%;
 }
+div.boton1:hover{
+  background-color: #395FA7;
+}
+div.boton1 a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 /*servicios*/
 .ico{
 border:2px solid blue;
@@ -66,9 +112,10 @@ color:#b3d4ff;
 }
 .iconos{
   padding:30px;
+  margin-top:30px;
 }
 .text-video, .text-reloj, .text-papel{
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
     
