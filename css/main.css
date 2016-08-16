@@ -129,3 +129,35 @@ color:#b3d4ff;
 .user-size{
   width: 40%;
 }
+.video{
+  width: 100%;
+  height: auto;
+}
+.compras{
+    border-bottom: 1px solid #eee;
+  position: relative;
+}
+.img-laptop {
+  background-image: url(../image/sec-2.jpg);
+  background-size: cover;
+  height: 500px;
+  padding: 0;
+}
+.filtro{
+  background-color: rgba(0,0,0,0.4);
+  height: 500px;
+}
+.compras .icono {
+  display: inline-block;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #50BDEA;
+  color: white;
+}
+.compras .icon, .compras .user-size {
+  position: absolute;
+  left: 47.8%;
+  z-index: 1;
+}
+
